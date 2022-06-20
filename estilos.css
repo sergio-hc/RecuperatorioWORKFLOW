@@ -1,0 +1,123 @@
+* {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+body {
+  background-color: #6ba3db;
+  height: 100%;
+  color: #000000;
+  
+}
+
+.container {
+  max-width: 200px;
+  margin: 20px auto;
+}
+.encabezado {
+    max-width: 100% auto;
+    margin: 20px auto;
+    background-color: rgb(200, 54, 54);
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+#pie{
+    color: #ecf0f1;
+    background-color:rgb(200, 54, 54); ;
+    position: absolute; 
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:0px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    z-index:0;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #ecf0f1;
+}
+
+a:hover {
+  color: #4b4e4f;
+}
+
+.form {
+  width: 100%;
+  background-color: rgba(43, 34, 34, 0.2);
+  text-align: center;
+  padding: 1.25em;
+  border-radius: 5px;
+}
+
+input {
+  margin: 0 0 .4em 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;   
+  box-shadow: 1px 1px 1px rgba(0,0,0,.01);
+  border: 0;
+  border-bottom: 5px solid rgba(0,0,0,.12);
+  line-height: 40px;
+}
+
+[type='text'] {
+  padding-left: 1em;
+}
+[type='password'] {
+    padding-left: 1em;
+  }
+
+[type='submit'] {
+  color: white;
+  background-color: #2980b9;
+  font-weight: 600;
+}
+
+[type='text']:focus {
+  border: 0;
+  border-bottom: 5px solid #2980b9;
+  color: #214162;
+  outline: none;
+}
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;    margin: 45px;     width: 480px; text-align: center;    border-collapse:separate; margin-left: auto;
+    margin-right: auto;}
+
+th {     font-size: 16px;     font-weight: bolder;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: rgb(14, 52, 16); }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: rgb(41, 41, 48);    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+#enlace{
+    color: #191b1b;
+}
+#usu{
+    color: #191b1b;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#but{
+    margin: auto; width: 220px;
+}
